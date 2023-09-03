@@ -1,2 +1,1 @@
-# MVTSEvalPaper
-Companion code for paper [Multivariate Time Series Anomaly Detection: Fancy Algorithms and Flawed Evaluation Methodology](https://arxiv.org/abs/2308.13068).
+Code for our paper about time series anomaly detection evaluation protocols [Multivariate Time Series Anomaly Detection: Fancy Algorithms and Flawed Evaluation Methodology](https://arxiv.org/abs/2308.13068).
