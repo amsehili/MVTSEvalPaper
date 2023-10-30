@@ -1,8 +1,8 @@
-# About
+## About
 
 Code for our paper about time series anomaly detection evaluation protocols published at TPCTC 2023 ([Multivariate Time Series Anomaly Detection: Fancy Algorithms and Flawed Evaluation Methodology](https://arxiv.org/abs/2308.13068)).
 
-# Datasets
+## Datasets
 
 Please download the SWaT, WADI and PSM datasets and place original files in the
 corresponding directory under `notebooks`. For WADI, run the provided script
@@ -13,7 +13,9 @@ corresponding directory under `notebooks`. For WADI, run the provided script
 
 
 
-# Performance with PCA-based baseline
+## Performance with PCA-based baseline
+To reproduce the results, first install the conda environment (`conda env create -f environment.yml`).
+We recommend that you start with the SWaT dataset as the notebook contains more comments.
 
 | Dataset | `F1` (point-wise) | `F1_c` (composite) | `F1_ew` (event-wise) |
 | ------- | ----------------- | ------------------ | -------------------- |
